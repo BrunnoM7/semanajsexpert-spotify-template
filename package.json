@@ -7,7 +7,9 @@
   "scripts": {
     "start": "node server/index.js",
     "live-reload": "nodemon -L server/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --no-cache",
+    "test:watch": "NODE_OPTIONS=--experimental-vm-modules jest --no-cache --watchAll",
+    "test:coverage": "NODE_OPTIONS=--experimental-vm-modules jest --no-cache --coverage test/unit"
   },
   "engines": {
     "node": "17"
@@ -23,6 +25,7 @@
   },
   "homepage": "https://github.com/BrunnoM7/semanajsexpert-spotify-template#readme",
   "devDependencies": {
+    "jest": "^27.5.1",
     "nodemon": "^2.0.15"
   },
   "dependencies": {
