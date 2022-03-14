@@ -1,4 +1,4 @@
-# Spotify Radio - Semana JS Expert 6.0
+# Spotify Radio - Semana JS Expert 6.0 - Brunno
 
 Seja bem vindo(a) à sexta Semana Javascript Expert. Este é o código inicial para iniciar nossa jornada.
 
